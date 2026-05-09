@@ -84,6 +84,8 @@ This checks that the documentation can be built and fails on broken links or con
 
 The generated website is written to `site/`. Do not edit files inside `site/` manually because they are generated output.
 
+The custom GitHub Pages domain is stored in `docs/CNAME`. Keep this file in the documentation source so `mkdocs gh-deploy --force --clean` copies it into the generated `gh-pages` branch on every deployment.
+
 ## Where to Edit Content
 
 Most documentation work happens in these places:
