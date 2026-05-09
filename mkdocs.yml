@@ -1,22 +1,19 @@
-site_name: ChronoScope Docs
+site_name: ChronoScope
 site_description: Verbraucherorientierte Dokumentation und Tutorials fuer ChronoScope.
 site_url: https://docs.ni0.team/
 
 site_author: NI0 - Name Ideas 0
 copyright: Copyright &copy; 2026 NI0 - Name Ideas 0
 
-repo_url: https://github.com/NI0-Name-Ideas-0/ni0.team-docs/
-repo_name: NI0-Name-Ideas-0/ni0.team-docs
-
 theme:
   name: material
   language: de
-  logo: assets/images/logo-placeholder.svg
-  favicon: assets/images/favicon-placeholder.svg
+  logo: assets/images/ChronoScope_logo.svg
+  favicon: assets/images/ChronoScope_logo.svg
   palette:
     - scheme: default
-      primary: teal
-      accent: amber
+      primary: custom
+      accent: custom
   font:
     text: Source Sans 3
     code: JetBrains Mono
@@ -32,8 +29,11 @@ theme:
     - search.highlight
     - content.tabs.link
     - content.code.copy
-    - content.action.edit
+    - toc.integrate
     - toc.follow
+
+extra_css:
+  - assets/stylesheets/brand.css
 
 nav:
   - Start: index.md
@@ -68,8 +68,3 @@ markdown_extensions:
 plugins:
   - search:
       lang: de
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/NI0-Name-Ideas-0

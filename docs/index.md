@@ -1,6 +1,22 @@
 # ChronoScope
 
-ChronoScope hilft dir dabei, Aufgaben, Termine und verfuegbare Arbeitszeit in einen realistischen Plan zu bringen. Diese Dokumentation richtet sich an Menschen, die ChronoScope verwenden moechten, nicht an Entwicklerinnen und Entwickler des Systems.
+ChronoScope hilft dir dabei, Aufgaben, Termine und verfuegbare Arbeitszeit in einen realistischen Plan zu bringen. Diese Dokumentation begleitet dich vom ersten Login bis zum automatisch erzeugten Arbeitsplan.
+
+<div class="quick-start-grid" markdown>
+
+[ :material-rocket-launch-outline: **Loslegen**
+Starte mit den wichtigsten Schritten fuer deinen ersten Arbeitsplan.](getting-started.md)
+
+[ :material-calendar-clock: **Ersten Plan erstellen**
+Lege Beispielaufgaben an und pruefe das Ergebnis im Kalender.](tutorials/first-plan.md)
+
+[ :material-checkbox-marked-circle-outline: **Aufgaben verstehen**
+Erfahre, welche Angaben ChronoScope fuer die Planung nutzt.](concepts/tasks.md)
+
+[ :material-lifebuoy: **Hilfe finden**
+Klaere typische Fragen rund um Planung, Termine und Blocker.](faq.md)
+
+</div>
 
 ## Wobei hilft diese Dokumentation?
 
@@ -21,7 +37,9 @@ Wenn du ChronoScope zum ersten Mal verwendest, starte mit [Loslegen](getting-sta
 Screenshots liegen im Ordner `docs/assets/images`. Danach kannst du sie so einbinden:
 
 ```markdown
-![Kalenderansicht mit geplanten Aufgaben](assets/images/calendar-overview.png)
+![Login](assets/images/Screenshot 2026-05-10 004215.png)
 ```
+
+![Login](assets/images/Screenshot 2026-05-10 004215.png)
 
 Mehr Hinweise dazu findest du im [Schreibguide](writing-guide.md).
