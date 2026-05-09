@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">ChronoScope Platzhalter-Logo</title>
+  <desc id="desc">Ein einfacher Platzhalter fuer das ChronoScope Logo.</desc>
+  <rect width="128" height="128" rx="24" fill="#0f766e"/>
+  <circle cx="64" cy="64" r="38" fill="none" stroke="#fbbf24" stroke-width="10"/>
+  <path d="M64 32v34l24 14" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
