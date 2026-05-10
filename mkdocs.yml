@@ -43,6 +43,9 @@ nav:
   - Funktionen:
       - concepts/tasks.md
       - concepts/calendar.md
+  - Installation:
+      - concepts/tasks.md
+      - concepts/calendar.md
   - Hilfe:
       - faq.md
       - writing-guide.md
