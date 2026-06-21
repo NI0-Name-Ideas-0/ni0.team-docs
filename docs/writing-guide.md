@@ -1,13 +1,13 @@
 # Schreibguide
 
-Diese Seite hilft dem Team, spaeter konsistente, nutzerfreundliche Dokumentation zu schreiben.
+Diese Seite hilft dem Team, später konsistente, nutzerfreundliche Dokumentation zu schreiben.
 
 ## Stil
 
-- Schreibe fuer Anwenderinnen und Anwender, nicht fuer Entwickler.
-- Erklaere zuerst den Nutzen, danach Details.
+-- Schreibe für Anwenderinnen und Anwender, nicht für Entwickler.
+-- Erkläre zuerst den Nutzen, danach Details.
 - Verwende kurze Abschnitte und konkrete Beispiele.
-- Nutze Screenshots fuer sichtbare Oberflaechen und Tabellen fuer Vergleiche.
+-- Nutze Screenshots für sichtbare Oberflächen und Tabellen für Vergleiche.
 - Vermeide interne Begriffe wie DTO, Repository oder Spring-Service.
 
 ## Bilder verwenden
@@ -20,7 +20,7 @@ Ein Bild bindest du relativ zur aktuellen Markdown-Datei ein:
 ![Beschreibung des Screenshots](assets/images/calendar-overview.png)
 ```
 
-Aus Unterordnern heraus gehst du eine Ebene zurueck:
+Aus Unterordnern heraus gehst du eine Ebene zurück:
 
 ```markdown
 ![Aufgabenliste](../assets/images/task-list.png)
@@ -35,8 +35,8 @@ Aus Unterordnern heraus gehst du eine Ebene zurueck:
 
 ## Gute Bildregeln
 
-- Nutze PNG fuer Screenshots.
-- Nutze SVG fuer Logos oder einfache Grafiken.
+-- Nutze PNG für Screenshots.
+-- Nutze SVG für Logos oder einfache Grafiken.
 - Schneide Screenshots so zu, dass der relevante Bereich klar sichtbar ist.
 - Vermeide echte personenbezogene Daten in Beispielen.
-- Gib jedem Bild einen aussagekraeftigen Alternativtext.
+-- Gib jedem Bild einen aussagekräftigen Alternativtext.
