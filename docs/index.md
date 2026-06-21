@@ -23,23 +23,8 @@ Kläre typische Fragen rund um Planung, Termine und Blocker.](faq.md)
 - Einen ersten Arbeitsplan erstellen
 - Aufgaben, Termine und Blocker unterscheiden
 - Den Kalender lesen und anpassen
- - Typische Fragen schnell klären
-
-!!! info "Noch im Aufbau"
- 	Diese Seite ist als Startpunkt gedacht. Die Struktur steht, die eigentlichen Inhalte können Schritt für Schritt ergänzt werden.
+- Typische Fragen schnell klären
 
 ## Schnellstart
 
 Wenn du ChronoScope zum ersten Mal verwendest, starte mit [Loslegen](getting-started.md). Dort steht, welche Grunddaten du brauchst und wie du von leeren Ansichten zu einem ersten Plan kommst.
-
-## Beispielbild einbinden
-
-Screenshots liegen im Ordner `docs/assets/images`. Danach kannst du sie so einbinden:
-
-```markdown
-![Login](assets/images/Login-Page.png)
-```
-
-![Login](assets/images/Login-Page.png)
-
-Mehr Hinweise dazu findest du im [Schreibguide](writing-guide.md).
