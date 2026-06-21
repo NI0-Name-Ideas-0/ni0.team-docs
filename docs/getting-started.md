@@ -32,18 +32,14 @@ Melde dich in ChronoScope an.
 Öffne deine Einstellungen indem du unten links auf das User-Icon klickst:
 ![Open Settings](assets/images/Settings-Open.png)
 
-Im Bereich "Konto & Sicherheit" kannst du deine verknüpften Konten einsehen und ein neues Konto verknüpfen.
-![Open Settings](assets/images/Settings-Account.png)
-Hier kannst du auch mehrere Konten zusammenführen um Aufgaben über mehrere Organisationen hinweg zu verwalten.
-Dafür einfach die E-Mail-Adresse des Organisationskontos eingeben und auf "Zusammenführen" klicken.
-Es wird eine E-Mail an das Konto verschickt, welche dann von diesem Konto aus bestätigt werden muss bevor das Zusammenführen beginnt.
+Hier ist vorallem wichtig, für jede Organisationen Arbeitszeiten hinterlegt zu haben.
+Wechsle dafür in den "Arbeitszeiten"-Reiter und ziehe per Drag-and-Drop deine Organisationen in den Bereich, in dem du für die Organisation Arbeitest.
+![Settings Workslots](assets/images/Settings-Workslots.png)
+Du kannst die länge per ziehen anpassen und Tage oben und unten aktivieren.
+Wenn die Einstellungen passen dann unten über die Schaltfläche speichern.
 
 !!! warning "Achtung"
-	Diese Zusammenführung kann nicht Rückgängig gemacht werden.
-	Sichere deine Einstellungen um sie danach wieder gerade ziehen zu können.
-
-Der Bereich "Darstellung & Sprache" erlaubt dir die Oberfläche nach deinen Wünschen ein zu stellen.
-![Open Settings](assets/images/Settings-Theme.png)
+	Wenn du keine Arbeitszeiten für eine Organisation hinterlegt hast, kann es zu Fehlern beim automatischen planen von Aufgaben kommen.
 
 ## Danach
 
