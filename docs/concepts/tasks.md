@@ -5,6 +5,7 @@ Aufgaben sind die zentralen Elemente in ChronoScope. Sie beschreiben Arbeit, die
 ## Statische Termine und Blocker erstellen
 
 Feste Termine haben eine konkrete Start- und Endzeit. Blocker markieren Zeiten, in denen ChronoScope keine Aufgaben einplanen soll.
+Blocker fallen nicht in die Berechnung der Auslastung mit ein.
 
 ![Static Task Erstellmenü](../assets/images/Static-Task-Create.png)
 
@@ -46,7 +47,7 @@ Dynamische Aufgaben werden nach dem Erstellen automatisch in freie Arbeitszeiten
 
 ## Nach dem Erstellen
 
-Nach dem Erstellen einer Aufgabe taucht sie in der Kalender- und Listenansicht auf (geschweige denn die Planung einer dynamischen Aufgabe schlägt fehl). Der Nutzer kann diese aufrufen, um die angaben zu editieren, mit Ausnahme des Kontos, dieses ist nach dem Anlegen unveränderlich. Laufende und oder bevorstehende Aufgaben werden außerdem in einer Statusleiste am oberen Bildschirmrand angezeigt.
+Nach dem Erstellen einer Aufgabe taucht sie in der Kalender- und Listenansicht auf (geschweige denn die Planung einer dynamischen Aufgabe schlägt fehl). Der Nutzer kann diese aufrufen, um die Angaben zu editieren, mit Ausnahme des Kontos, dieses ist nach dem Anlegen unveränderlich. Laufende und oder bevorstehende Aufgaben werden außerdem in einer Statusleiste am oberen Bildschirmrand angezeigt.
 Der Kalender hat eine wöchentliche und eine monatliche Ansicht, die mit den Pfeilknöpfen navigiert werden können. In der Wochenansicht sind außerdem die Arbeitszeiten farbig hinterlegt.
 
 ![Kalender Monatsansicht](../assets/images/Monthly-Calendar.png)

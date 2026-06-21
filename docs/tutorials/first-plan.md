@@ -1,34 +1,38 @@
 # Deinen ersten Plan erstellen
 
-In diesem Tutorial legst du beispielhaft Aufgaben an und lässt ChronoScope daraus einen Arbeitsplan erzeugen. Die Schritte sind als Vorlage gedacht und können später mit echten Produkt-Screenshots erweitert werden.
+In diesem Tutorial legst du beispielhaft Aufgaben an und lässt ChronoScope daraus einen Arbeitsplan erzeugen. 
 
 ## Ziel
 
 Am Ende hast du einen Kalender, in dem ChronoScope Aufgaben automatisch in freie Arbeitszeiten eingeplant hat.
 
-## Beispiel
+## Voraussetzung
 
-Du möchtest heute folgende Aufgaben planen:
+Du hast deine Arbeitszeiten in den [Einstellungen](first-plan.md#Erster-Ablauf) hinterlegt.
 
-| Aufgabe | Daür | Deadline | Priorität |
-| --- | ---: | --- | --- |
-| Konzept überarbeiten | 2 h | Heute, 16:00 | Hoch |
-| E-Mails beantworten | 30 min | Heute, 12:00 | Mittel |
-| Präsentation vorbereiten | 1 h | Morgen, 10:00 | Hoch |
+## Wie lege ich Aufgaben an?
 
-## Schritte
+Klicke auf der linken Seite auf das Icon mit dem "+"-Zeichen:
 
-1. öffne die Aufgabenliste.
-2. Erstelle für jede Aufgabe einen Eintrag mit Titel, Daür, Deadline und Priorität.
-3. Wechsle in die Kalenderansicht.
-4. Prüfe, ob deine Arbeitszeiten korrekt angezeigt werden.
-5. Starte die automatische Planung.
-6. Kontrolliere, ob ChronoScope Konflikte oder unplanbare Aufgaben meldet.
+![Sidenav](../assets/images/Overview-Sidepanel.png)
 
-!!! note "Später mit Screenshot ergänzen"
-    Sobald eine stabile Oberfläche existiert, sollte hier ein Screenshot der Aufgabenliste und ein Screenshot des fertigen Kalenders eingebunden werden.
+Danach öffnet sich das Menü zum erstellen einer Aufgabe:
 
-## Ergebnis prüfen
+![Task Static](../assets/images/Static-Task-Create.png)
+
+Hier kannst du einen Termin oder Blocker erstellen, der nicht vom Algorithmus verschoben oder überlagert wird.
+Da wir aber einen automatisierten Plan erstellen wollen wechseln wir oben auf "Geplant" um.
+
+![Task Dynamic](../assets/images/Dynamic-Task-Create.png)
+
+Hier können wir eine Aufgabe erstellen.
+Wichtig hierbei ist die Einstellung des Kontos und der Zeitspannen.
+Das Konto bestimmt, zu welchen Arbeitszeiten die Aufgabe geplant wird.
+Das Start- und Fälligkeitsdatum bestimmt, in welchem Zeitraum die Aufgabe geplant werden darf.
+Die Dauer sowie die Min- und Max-Sitzungsdauer bestimmt, wie klein die Aufgabe automatisch unterteilt werden darf.
+Weitere Infos findest du unter [Aufgaben verstehen](../concepts/tasks.md)
+
+## Ergebnis
 
 Ein guter erster Plan erfüllt diese Punkte:
 
