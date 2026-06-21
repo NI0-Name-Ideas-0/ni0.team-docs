@@ -59,4 +59,4 @@ Die Listenansicht zeigt alle Aufgaben in chronologischer Reihenfolge nach dem FÃ
 
 Die Statusleiste gibt dem Nutzer eine weitere schnelle MÃ¶glichkeit eine dynamische Aufgabe zu quittieren, wenn im Moment eine Aufgabe laufend ist bzw. unquittiert ist und in der Vergangenheit liegt.
 
-![Statusleiste ohne Aufgabe](../assets/images/Weekly-Calendar.png)
+![Statusleiste ohne Aufgabe](../assets/images/Upcoming-Badge-notasks.png)
