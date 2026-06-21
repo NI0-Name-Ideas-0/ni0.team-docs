@@ -48,16 +48,3 @@ Dynamische Aufgaben werden nach dem Erstellen automatisch in freie Arbeitszeiten
 ## Nach dem Erstellen
 
 Nach dem Erstellen einer Aufgabe taucht sie in der Kalender- und Listenansicht auf (geschweige denn die Planung einer dynamischen Aufgabe schlägt fehl). Der Nutzer kann diese aufrufen, um die Angaben zu editieren, mit Ausnahme des Kontos, dieses ist nach dem Anlegen unveränderlich. Laufende und oder bevorstehende Aufgaben werden außerdem in einer Statusleiste am oberen Bildschirmrand angezeigt.
-Der Kalender hat eine wöchentliche und eine monatliche Ansicht, die mit den Pfeilknöpfen navigiert werden können. In der Wochenansicht sind außerdem die Arbeitszeiten farbig hinterlegt.
-
-![Kalender Monatsansicht](../assets/images/Monthly-Calendar.png)
-
-![Kalender Wochenansicht](../assets/images/Weekly-Calendar.png)
-
-Die Listenansicht zeigt alle Aufgaben in chronologischer Reihenfolge nach dem Fälligkeitsdatum an und bietet einige Filter an. Sie kann auch genutzt werden, um dynamische Aufgaben nach dem Abschließen zu quittieren.
-
-![Listenansicht](../assets/images/List-View.png)
-
-Die Statusleiste gibt dem Nutzer eine weitere schnelle Möglichkeit eine dynamische Aufgabe zu quittieren, wenn im Moment eine Aufgabe laufend ist bzw. unquittiert ist und in der Vergangenheit liegt.
-
-![Statusleiste ohne Aufgabe](../assets/images/Upcoming-Badge-notasks.png)
