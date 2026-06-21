@@ -30,6 +30,7 @@ Diesen entsprechend klicken um deinen Account zu verifizieren.
 
 Melde dich in ChronoScope an.
 Öffne deine Einstellungen indem du unten links auf das User-Icon klickst:
+
 ![Open Settings](assets/images/Settings-Open.png)
 
 Hier ist vorallem wichtig, für jede Organisationen Arbeitszeiten hinterlegt zu haben.
