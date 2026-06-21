@@ -51,7 +51,7 @@ Desweitern kann man in dem Suchfeld nach Namen oder Labels suchen. Im unteren Be
 
 ## Aufgabe erstellen
 
-Durch den Knopf an der linken Seite mit einem Plus, kann eine neue Aufgabe erstellt werden. Für eine genauere Beschreibung für das anlegen einer aufgabe siehe den Abschnitt "Aufgaben verstehen".
+Durch den Knopf an der linken Seite mit einem Plus, kann eine neue Aufgabe erstellt werden. Eine genauere Beschreibung für das Anlegen einer Aufgabe findest du [hier.](tasks.md).
 
 ## Aufgaben einplanen
 
@@ -59,4 +59,4 @@ Normalerweise, wird der Algorithmus nach der Erstellung einer Aufgabe automatisc
 
 ## Profil
 
-An der unteren linken Ecke befindet sich der Profilknopf. Hier kann sich der User entweder von unserer Anwendung abmelden oder die Einstellungen erreichen. Für eine genauere Beschreibung der Einstellungen siehe den Abschnitt "Einstellungen verstehen".
+An der unteren linken Ecke befindet sich der Profilknopf. Hier kann sich der User entweder von unserer Anwendung abmelden oder die Einstellungen erreichen. Weitere Informationen zu den Einstellungen findest du im [nächsten Abschnitt.](settings.md)

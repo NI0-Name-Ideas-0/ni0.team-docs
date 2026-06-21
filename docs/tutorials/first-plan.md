@@ -30,7 +30,12 @@ Wichtig hierbei ist die Einstellung des Kontos und der Zeitspannen.
 Das Konto bestimmt, zu welchen Arbeitszeiten die Aufgabe geplant wird.
 Das Start- und Fälligkeitsdatum bestimmt, in welchem Zeitraum die Aufgabe geplant werden darf.
 Die Dauer sowie die Min- und Max-Sitzungsdauer bestimmt, wie klein die Aufgabe automatisch unterteilt werden darf.
+
 Weitere Infos findest du unter [Aufgaben verstehen](../concepts/tasks.md)
+
+Sobald die Aufgabe erstellt wurde wird sie Automatisch von ChronoScope eingeplant.
+Weitere Aufgaben können mit unterschiedlichen Deadlines und Prioritäten erstellt werden.
+Jedesmal wird der Algorithmus nach der bestmöglichen Lösung suchen um die Aufgaben ausgewogen zu verteilen.
 
 ## Ergebnis
 
