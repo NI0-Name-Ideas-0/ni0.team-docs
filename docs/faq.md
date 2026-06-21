@@ -10,8 +10,9 @@ Ein Termin ist ein fester Zeitraum, der als Arbeitsbelastung zählt. Ein Blocker
 
 ## Kann ich Aufgaben manuell verschieben?
 
-Diese Antwort sollte später an das tatsächliche Verhalten der Anwendung angepasst werden.
+Nein, Aufgaben können nicht manuell verschoben werden, da sie automatisiert geplant werden.
+Termine und Blocker hingegen können manuell verschoben werden.
 
 ## Welche Sprachen werden unterstützt?
 
-ChronoScope soll Deutsch und Englisch unterstützen. Diese Dokumentation startet auf Deutsch und kann später um englische Seiten erweitert werden.
+ChronoScope soll Deutsch und Englisch unterstützen.

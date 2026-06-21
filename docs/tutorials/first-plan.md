@@ -8,7 +8,7 @@ Am Ende hast du einen Kalender, in dem ChronoScope Aufgaben automatisch in freie
 
 ## Voraussetzung
 
-Du hast deine Arbeitszeiten in den [Einstellungen](first-plan.md#Erster-Ablauf) hinterlegt.
+Du hast deine Arbeitszeiten in den [Einstellungen](../getting-started.md#Erster-Ablauf) hinterlegt.
 
 ## Wie lege ich Aufgaben an?
 
