@@ -3,7 +3,9 @@
 ## Konto & Sicherheit
 
 Im Bereich "Konto & Sicherheit" kannst du deine verknüpften Konten einsehen und ein neues Konto verknüpfen.
+
 ![Settings Account](assets/images/Settings-Account.png)
+
 Hier kannst du auch mehrere Konten zusammenführen um Aufgaben über mehrere Organisationen hinweg zu verwalten.
 Dafür einfach die E-Mail-Adresse des Organisationskontos eingeben und auf "Zusammenführen" klicken.
 Es wird eine E-Mail an das Konto verschickt, welche dann von diesem Konto aus bestätigt werden muss bevor das Zusammenführen beginnt.
