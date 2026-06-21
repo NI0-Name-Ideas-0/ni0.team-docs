@@ -49,7 +49,6 @@ nav:
       - installation/frontend-setup.md
   - Hilfe:
       - faq.md
-      - writing-guide.md
 
 markdown_extensions:
   - admonition
