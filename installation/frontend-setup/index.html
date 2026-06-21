@@ -1,0 +1,1400 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Verbraucherorientierte Dokumentation und Tutorials für ChronoScope.">
+      
+      
+        <meta name="author" content="NI0 - Name Ideas 0">
+      
+      
+        <link rel="canonical" href="https://docs.ni0.team/installation/frontend-setup/">
+      
+      
+        <link rel="prev" href="../backend-setup/">
+      
+      
+        <link rel="next" href="../../faq/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/ChronoScope_logo.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Frontend - ChronoScope</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans 3";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/brand.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#frontend" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="ChronoScope" class="md-header__button md-logo" aria-label="ChronoScope" data-md-component="logo">
+      
+  <img src="../../assets/images/ChronoScope_logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ChronoScope
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Frontend
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Teilen" aria-label="Teilen" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Hauptnavigation" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Start
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../getting-started/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Loslegen
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../concepts/tasks/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Funktionen
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../backend-setup/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Installation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../faq/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Hilfe
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="ChronoScope" class="md-nav__button md-logo" aria-label="ChronoScope" data-md-component="logo">
+      
+  <img src="../../assets/images/ChronoScope_logo.svg" alt="logo">
+
+    </a>
+    ChronoScope
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loslegen
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Loslegen
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loslegen mit ChronoScope
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/first-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deinen ersten Plan erstellen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Funktionen
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Funktionen
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/tasks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aufgaben verstehen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oberfläche verstehen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Einstellungen verstehen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Installation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Installation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backend-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backend
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frontend
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frontend
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#voraussetzungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Voraussetzungen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#repository-vorbereiten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repository vorbereiten
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backend-adresse-konfigurieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend-Adresse konfigurieren
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anmeldung-in-keycloak-konfigurieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anmeldung in Keycloak konfigurieren
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#produktionsbuild-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Produktionsbuild erstellen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webserver-einrichten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Webserver einrichten
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Webserver einrichten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#beispiel-mit-nginx" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beispiel mit Nginx
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beispiel-mit-apache" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Beispiel mit Apache
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dateien-veroffentlichen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dateien veröffentlichen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abnahme-prufen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abnahme prüfen
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#haufige-probleme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Häufige Probleme
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hilfe
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Hilfe
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Häufige Fragen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="frontend">Frontend<a class="headerlink" href="#frontend" title="Permanent link">&para;</a></h1>
+<p>Diese Anleitung beschreibt, wie das ChronoScope-Frontend in einer Produktivumgebung gebaut und bereitgestellt wird. Das Frontend ist eine Angular-Anwendung und wird nach dem Build als statische Website ausgeliefert. Es benötigt deshalb keinen dauerhaft laufenden Node.js-Prozess auf dem Server.</p>
+<div class="admonition info">
+<p class="admonition-title">Kurzüberblick</p>
+<p>Das Frontend wird einmal mit <code>pnpm build</code> gebaut. Anschließend werden die erzeugten Dateien über einen Webserver wie Nginx, Apache oder einen bestehenden Reverse Proxy ausgeliefert.</p>
+</div>
+<h2 id="voraussetzungen">Voraussetzungen<a class="headerlink" href="#voraussetzungen" title="Permanent link">&para;</a></h2>
+<p>Für die Bereitstellung werden folgende Komponenten benötigt:</p>
+<table>
+<thead>
+<tr>
+<th>Komponente</th>
+<th>Empfehlung</th>
+<th>Zweck</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Node.js</td>
+<td>Version 22 LTS</td>
+<td>Baut die Angular-Anwendung</td>
+</tr>
+<tr>
+<td>pnpm</td>
+<td>Version 10.x</td>
+<td>Installiert die Abhängigkeiten reproduzierbar</td>
+</tr>
+<tr>
+<td>Webserver</td>
+<td>Nginx, Apache oder vergleichbar</td>
+<td>Liefert die gebauten Dateien aus</td>
+</tr>
+<tr>
+<td>HTTPS-Zertifikat</td>
+<td>z. B. Let's Encrypt</td>
+<td>Schützt Anmeldung und API-Kommunikation</td>
+</tr>
+<tr>
+<td>ChronoScope-Backend</td>
+<td>Bereits erreichbar</td>
+<td>Wird vom Frontend über die API angesprochen</td>
+</tr>
+<tr>
+<td>Keycloak</td>
+<td>Bereits erreichbar</td>
+<td>Übernimmt Anmeldung und Benutzeridentität</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">HTTPS verwenden</p>
+<p>In der Produktivumgebung sollte das Frontend ausschließlich über HTTPS erreichbar sein. Anmeldedaten und Zugriffstokens dürfen nicht über unverschlüsselte Verbindungen übertragen werden.</p>
+</div>
+<h2 id="repository-vorbereiten">Repository vorbereiten<a class="headerlink" href="#repository-vorbereiten" title="Permanent link">&para;</a></h2>
+<p>Klonen Sie das Frontend-Repository auf eine Maschine, auf der der Produktionsbuild erzeugt werden soll:</p>
+<div class="highlight"><pre><span></span><code><span class="n">git</span> <span class="n">clone</span> <span class="p">&lt;</span><span class="n">repository-url</span><span class="p">&gt;</span>
+<span class="nb">Set-Location</span> <span class="n">ChronoScope-frontend</span>
+</code></pre></div>
+<p>Aktivieren Sie anschließend die im Projekt festgelegte pnpm-Version über Corepack:</p>
+<div class="highlight"><pre><span></span><code><span class="n">corepack</span> <span class="n">enable</span>
+<span class="n">corepack</span> <span class="n">prepare</span> <span class="n">pnpm</span><span class="nv">@10</span><span class="p">.</span><span class="n">33</span><span class="p">.</span><span class="n">0</span> <span class="p">-</span><span class="n">-activate</span>
+<span class="n">pnpm</span> <span class="p">-</span><span class="n">-version</span>
+</code></pre></div>
+<p>Installieren Sie danach die Abhängigkeiten:</p>
+<div class="highlight"><pre><span></span><code><span class="n">pnpm</span> <span class="n">install</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Build-Server statt Produktivserver</p>
+<p>Node.js und pnpm werden nur zum Erzeugen der statischen Dateien benötigt. Auf dem eigentlichen Webserver müssen diese Werkzeuge nicht installiert sein, wenn die fertigen Build-Dateien dort nur ausgeliefert werden.</p>
+</div>
+<h2 id="backend-adresse-konfigurieren">Backend-Adresse konfigurieren<a class="headerlink" href="#backend-adresse-konfigurieren" title="Permanent link">&para;</a></h2>
+<p>Das Produktiv-Frontend verwendet die Datei <code>src/environments/environment.prod.ts</code>. Tragen Sie dort die öffentlich erreichbare Backend-URL ein:</p>
+<div class="highlight"><pre><span></span><code><span class="k">export</span><span class="w"> </span><span class="kd">const</span><span class="w"> </span><span class="nx">environment</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">production</span><span class="o">:</span><span class="w"> </span><span class="kt">true</span><span class="p">,</span>
+<span class="w">  </span><span class="nx">apiUrl</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;https://chronoscope.example.org/api&#39;</span><span class="p">,</span>
+<span class="p">};</span>
+</code></pre></div>
+<p>Die URL muss aus Sicht des Browsers erreichbar sein. Wenn das Backend über denselben Host per Reverse Proxy unter <code>/api</code> veröffentlicht wird, ist eine URL wie <code>https://chronoscope.example.org/api</code> üblich.</p>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Beispielwert für <code>apiUrl</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Backend unter derselben Domain mit API-Pfad</td>
+<td><code>https://chronoscope.example.org/api</code></td>
+</tr>
+<tr>
+<td>Backend unter eigener Subdomain</td>
+<td><code>https://api.chronoscope.example.org</code></td>
+</tr>
+<tr>
+<td>Testsystem beim Kunden</td>
+<td><code>https://test-chronoscope.example.org/api</code></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">CORS beachten</p>
+<p>Wenn Frontend und Backend über unterschiedliche Domains erreichbar sind, muss das Backend Anfragen von der Frontend-Domain erlauben. Andernfalls blockiert der Browser die API-Aufrufe.</p>
+</div>
+<h2 id="anmeldung-in-keycloak-konfigurieren">Anmeldung in Keycloak konfigurieren<a class="headerlink" href="#anmeldung-in-keycloak-konfigurieren" title="Permanent link">&para;</a></h2>
+<p>Das Frontend nutzt OpenID Connect über Keycloak. Die Weiterleitungsadresse nach der Anmeldung wird aus der geöffneten Frontend-Adresse gebildet. Dadurch muss die öffentliche Frontend-URL im Keycloak-Client erlaubt sein.</p>
+<p>Im Keycloak-Client <code>chronoscope</code> sollten mindestens diese Werte gesetzt werden:</p>
+<table>
+<thead>
+<tr>
+<th>Einstellung</th>
+<th>Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Valid redirect URIs</td>
+<td><code>https://chronoscope.example.org/*</code></td>
+</tr>
+<tr>
+<td>Web origins</td>
+<td><code>https://chronoscope.example.org</code></td>
+</tr>
+<tr>
+<td>Client type</td>
+<td>Public client</td>
+</tr>
+<tr>
+<td>Standard flow</td>
+<td>Aktiviert</td>
+</tr>
+</tbody>
+</table>
+<p>Wenn für den Kunden ein eigener Realm, eine andere Keycloak-URL oder eine andere Client-ID genutzt wird, müssen diese Werte zusätzlich im Frontend-Code angepasst und anschließend neu gebaut werden.</p>
+<div class="admonition note">
+<p class="admonition-title">Aktuelle Voreinstellung</p>
+<p>Die Anwendung ist derzeit auf den Keycloak-Realm <code>https://auth.ni0.team/realms/ni0</code> und die Client-ID <code>chronoscope</code> ausgelegt. Für eine kundeneigene Installation sollte geprüft werden, ob diese Werte übernommen oder ersetzt werden sollen.</p>
+</div>
+<h2 id="produktionsbuild-erstellen">Produktionsbuild erstellen<a class="headerlink" href="#produktionsbuild-erstellen" title="Permanent link">&para;</a></h2>
+<p>Führen Sie vor dem Build optional die Tests aus:</p>
+<div class="highlight"><pre><span></span><code><span class="n">pnpm</span> <span class="n">test</span>
+</code></pre></div>
+<p>Erstellen Sie anschließend den Produktionsbuild:</p>
+<div class="highlight"><pre><span></span><code><span class="n">pnpm</span> <span class="n">build</span>
+</code></pre></div>
+<p>Angular erzeugt die auslieferbaren Dateien im Ordner <code>dist</code>. Je nach Angular-Version liegt die eigentliche Website im Projektordner selbst oder in einem darunterliegenden <code>browser</code>-Ordner.</p>
+<p>Prüfen Sie nach dem Build, welcher Ordner eine <code>index.html</code> enthält:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">Get-ChildItem</span> <span class="n">-Path</span> <span class="p">.\</span><span class="n">dist</span> <span class="n">-Filter</span> <span class="n">index</span><span class="p">.</span><span class="n">html</span> <span class="n">-Recurse</span>
+</code></pre></div>
+<p>Diesen Ordner veröffentlichen Sie über den Webserver.</p>
+<h2 id="webserver-einrichten">Webserver einrichten<a class="headerlink" href="#webserver-einrichten" title="Permanent link">&para;</a></h2>
+<p>Das Frontend muss als Single-Page-Application ausgeliefert werden. Das bedeutet: Direkte Aufrufe wie <code>/calendar</code> oder <code>/settings</code> dürfen nicht zu einem 404-Fehler führen, sondern müssen auf die <code>index.html</code> zurückfallen.</p>
+<h3 id="beispiel-mit-nginx">Beispiel mit Nginx<a class="headerlink" href="#beispiel-mit-nginx" title="Permanent link">&para;</a></h3>
+<p>In diesem Beispiel liegen die gebauten Dateien unter <code>/var/www/chronoscope</code> und das Backend wird unter <code>/api</code> weitergeleitet:</p>
+<div class="highlight"><pre><span></span><code><span class="k">server</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kn">listen</span><span class="w"> </span><span class="mi">80</span><span class="p">;</span>
+<span class="w">    </span><span class="kn">server_name</span><span class="w"> </span><span class="s">chronoscope.example.org</span><span class="p">;</span>
+
+<span class="w">    </span><span class="kn">root</span><span class="w"> </span><span class="s">/var/www/chronoscope</span><span class="p">;</span>
+<span class="w">    </span><span class="kn">index</span><span class="w"> </span><span class="s">index.html</span><span class="p">;</span>
+
+<span class="w">    </span><span class="kn">location</span><span class="w"> </span><span class="s">/api/</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kn">proxy_pass</span><span class="w"> </span><span class="s">http://127.0.0.1:9120/</span><span class="p">;</span>
+<span class="w">        </span><span class="kn">proxy_set_header</span><span class="w"> </span><span class="s">Host</span><span class="w"> </span><span class="nv">$host</span><span class="p">;</span>
+<span class="w">        </span><span class="kn">proxy_set_header</span><span class="w"> </span><span class="s">X-Real-IP</span><span class="w"> </span><span class="nv">$remote_addr</span><span class="p">;</span>
+<span class="w">        </span><span class="kn">proxy_set_header</span><span class="w"> </span><span class="s">X-Forwarded-For</span><span class="w"> </span><span class="nv">$proxy_add_x_forwarded_for</span><span class="p">;</span>
+<span class="w">        </span><span class="kn">proxy_set_header</span><span class="w"> </span><span class="s">X-Forwarded-Proto</span><span class="w"> </span><span class="nv">$scheme</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+
+<span class="w">    </span><span class="kn">location</span><span class="w"> </span><span class="s">/</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="kn">try_files</span><span class="w"> </span><span class="nv">$uri</span><span class="w"> </span><span class="nv">$uri/</span><span class="w"> </span><span class="s">/index.html</span><span class="p">;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Für den Produktivbetrieb sollte zusätzlich HTTPS aktiviert werden, zum Beispiel über ein Let's-Encrypt-Zertifikat.</p>
+<h3 id="beispiel-mit-apache">Beispiel mit Apache<a class="headerlink" href="#beispiel-mit-apache" title="Permanent link">&para;</a></h3>
+<p>Bei Apache kann das Frontend mit <code>mod_rewrite</code> ebenfalls auf die <code>index.html</code> zurückfallen:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">&lt;VirtualHost</span><span class="w"> </span><span class="s">*:80</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nb">ServerName</span><span class="w"> </span>chronoscope.example.org
+<span class="w">    </span><span class="nb">DocumentRoot</span><span class="w"> </span><span class="sx">/var/www/chronoscope</span>
+
+<span class="w">    </span><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/var/www/chronoscope</span><span class="nt">&gt;</span>
+<span class="w">        </span><span class="nb">Require</span><span class="w"> </span><span class="k">all</span><span class="w"> </span>granted
+<span class="w">        </span><span class="nb">RewriteEngine</span><span class="w"> </span><span class="k">On</span>
+<span class="w">        </span><span class="nb">RewriteBase</span><span class="w"> </span>/
+<span class="w">        </span><span class="nb">RewriteRule</span><span class="w"> </span>^index\.html$<span class="w"> </span>-<span class="w"> </span>[L]
+<span class="w">        </span><span class="nb">RewriteCond</span><span class="w"> </span>%{REQUEST_FILENAME}<span class="w"> </span>!-f
+<span class="w">        </span><span class="nb">RewriteCond</span><span class="w"> </span>%{REQUEST_FILENAME}<span class="w"> </span>!-d
+<span class="w">        </span><span class="nb">RewriteRule</span><span class="w"> </span>.<span class="w"> </span><span class="sx">/index.html</span><span class="w"> </span>[L]
+<span class="w">    </span><span class="nt">&lt;/Directory&gt;</span>
+
+<span class="w">    </span><span class="nb">ProxyPass</span><span class="w"> </span><span class="sx">/api/</span><span class="w"> </span>http://127.0.0.1:9120/
+<span class="w">    </span><span class="nb">ProxyPassReverse</span><span class="w"> </span><span class="sx">/api/</span><span class="w"> </span>http://127.0.0.1:9120/
+<span class="nt">&lt;/VirtualHost&gt;</span>
+</code></pre></div>
+<h2 id="dateien-veroffentlichen">Dateien veröffentlichen<a class="headerlink" href="#dateien-veroffentlichen" title="Permanent link">&para;</a></h2>
+<p>Kopieren Sie den Ordner, der die <code>index.html</code> enthält, in das Webserver-Verzeichnis. Unter Windows kann das zum Beispiel so vorbereitet werden:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">Copy-Item</span> <span class="n">-Path</span> <span class="p">.\</span><span class="n">dist</span><span class="p">\</span><span class="n">ChronoScope-frontend</span><span class="p">\</span><span class="n">browser</span><span class="p">\*</span> <span class="n">-Destination</span> <span class="p">&lt;</span><span class="n">zielordner</span><span class="p">&gt;</span> <span class="n">-Recurse</span> <span class="n">-Force</span>
+</code></pre></div>
+<p>Falls die <code>index.html</code> direkt unter <code>dist\ChronoScope-frontend</code> liegt, passen Sie den Quellpfad entsprechend an.</p>
+<p>Nach dem Kopieren muss der Webserver die neuen Dateien ausliefern. Je nach Umgebung reicht ein Reload der Konfiguration aus.</p>
+<h2 id="abnahme-prufen">Abnahme prüfen<a class="headerlink" href="#abnahme-prufen" title="Permanent link">&para;</a></h2>
+<p>Nach der Bereitstellung sollten folgende Punkte geprüft werden:</p>
+<table>
+<thead>
+<tr>
+<th>Prüfung</th>
+<th>Erwartetes Ergebnis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frontend-URL öffnen</td>
+<td>Die ChronoScope-Oberfläche wird geladen</td>
+</tr>
+<tr>
+<td>Seite neu laden</td>
+<td>Die Anwendung bleibt erreichbar und zeigt keinen 404-Fehler</td>
+</tr>
+<tr>
+<td>Anmeldung starten</td>
+<td>Der Browser leitet zu Keycloak weiter</td>
+</tr>
+<tr>
+<td>Anmeldung abschließen</td>
+<td>Der Browser kehrt zur Frontend-URL zurück</td>
+</tr>
+<tr>
+<td>API-Aufruf auslösen</td>
+<td>Aufgaben, Organisationen oder Benutzerdaten werden geladen</td>
+</tr>
+<tr>
+<td>HTTPS prüfen</td>
+<td>Browser zeigt eine sichere Verbindung an</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition success">
+<p class="admonition-title">Bereit für die Übergabe</p>
+<p>Wenn Anmeldung, API-Kommunikation und direkter Seitenreload funktionieren, ist das Frontend aus Sicht der Produktivbereitstellung einsatzbereit.</p>
+</div>
+<h2 id="haufige-probleme">Häufige Probleme<a class="headerlink" href="#haufige-probleme" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Mögliche Ursache</th>
+<th>Lösung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Die Anwendung lädt, aber Daten fehlen</td>
+<td>Backend-URL ist falsch oder nicht erreichbar</td>
+<td><code>apiUrl</code> prüfen und Frontend neu bauen</td>
+</tr>
+<tr>
+<td>Browser meldet CORS-Fehler</td>
+<td>Backend erlaubt die Frontend-Domain nicht</td>
+<td>CORS-Konfiguration im Backend ergänzen</td>
+</tr>
+<tr>
+<td>Login endet mit Redirect-Fehler</td>
+<td>Frontend-URL ist in Keycloak nicht erlaubt</td>
+<td>Valid redirect URIs und Web origins prüfen</td>
+</tr>
+<tr>
+<td>Direkter Aufruf einer Unterseite zeigt 404</td>
+<td>Webserver leitet SPA-Routen nicht auf <code>index.html</code> um</td>
+<td><code>try_files</code> oder Rewrite-Regel ergänzen</td>
+</tr>
+<tr>
+<td>Änderungen an <code>environment.prod.ts</code> erscheinen nicht</td>
+<td>Alte Build-Dateien werden ausgeliefert</td>
+<td>Neu bauen, Dateien erneut kopieren und Cache prüfen</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Zurück zum Seitenanfang
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 NI0 - Name Ideas 0
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "search.share", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "toc.integrate", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
