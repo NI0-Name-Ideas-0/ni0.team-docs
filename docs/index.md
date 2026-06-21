@@ -37,9 +37,9 @@ Wenn du ChronoScope zum ersten Mal verwendest, starte mit [Loslegen](getting-sta
 Screenshots liegen im Ordner `docs/assets/images`. Danach kannst du sie so einbinden:
 
 ```markdown
-![Login](assets/images/Screenshot 2026-05-10 004215.png)
+![Login](assets/images/Login-Page.png)
 ```
 
-![Login](assets/images/Screenshot 2026-05-10 004215.png)
+![Login](assets/images/Login-Page.png)
 
 Mehr Hinweise dazu findest du im [Schreibguide](writing-guide.md).

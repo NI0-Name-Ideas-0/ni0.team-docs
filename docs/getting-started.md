@@ -1,13 +1,30 @@
 # Loslegen mit ChronoScope
 
-Diese Seite beschreibt den kleinsten sinnvollen Einstieg in ChronoScope. Sie ist bewusst knapp gehalten und kann später mit echten Screenshots und produktnahen Details erweitert werden.
+Diese Anleitung hilft dir, ChronoScope für dich ein zu richten
 
-## Was du vorbereiten solltest
+## Account Registrieren
 
--- Einen Benutzeraccount
--- Eine Organisation oder einen privaten Arbeitsbereich
--- Deine üblichen Arbeitszeiten
--- Ein paar Aufgaben mit Deadline und geschätzter Dauer
+Zuerst solltest du ein Account registerieren.
+
+!!! note "Beachte"
+	Solltest du über deine Organisation einen Account bekommen, dann Gib einfach deine E-Mail Adresse ein.
+	Du wirst automatisch zur Anmeldemaske deiner Organisation weiter geleitet und musst hier keinen neuen Account erstellen.
+
+Dafür gehst du auf der Anmelde-Seite auf den Button "Registrieren":
+
+![Login](assets/images/Login-Page.png)
+
+Fülle entsprechend die Registrierungsmaske mit deinen Informationen aus:
+
+![Registration](assets/images/Login-Registration.png)
+
+Wichtig hierbei ist ein starkes Passwort zu verwenden und deine eigene E-Mail-Adresse.
+
+Nachdem die Informationen ausgefüllt sind, wird an deine E-Mail-Adresse eine Nachricht mit einem Bestätigungslink geschickt.
+Diesen entsprechend klicken um deinen Account zu verifizieren.
+
+![Verify](assets/images/Login-Verify.png)
+
 
 ## Erster Ablauf
 
