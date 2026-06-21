@@ -250,13 +250,14 @@ html {
 }
 
 .quick-start-grid > a strong {
-  color: #2563eb;
+  color: #2563eb !important;
   display: block;
   font-size: 0.95rem;
   margin-bottom: 0.35rem;
-  text-decoration: underline;
-  text-decoration-thickness: 0.08em;
-  text-underline-offset: 0.18em;
+  text-decoration: underline !important;
+  text-decoration-color: #2563eb !important;
+  text-decoration-thickness: 0.12em !important;
+  text-underline-offset: 0.22em !important;
 }
 
 .quick-start-grid .twemoji {

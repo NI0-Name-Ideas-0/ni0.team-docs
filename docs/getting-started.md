@@ -6,7 +6,7 @@ Diese Anleitung hilft dir, ChronoScope für dich ein zu richten.
 
 Zuerst solltest du ein Account registerieren.
 
-!!! note "Beachte"
+!!! warning "Beachte"
 	Solltest du über deine Organisation einen Account bekommen, dann Gib einfach deine E-Mail Adresse ein.
 	Du wirst automatisch zur Anmeldemaske deiner Organisation weiter geleitet und musst hier keinen neuen Account erstellen.
 
