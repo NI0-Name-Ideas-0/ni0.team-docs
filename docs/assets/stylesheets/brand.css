@@ -104,13 +104,15 @@ html {
 }
 
 .md-typeset a {
+  text-decoration: underline;
+  text-decoration-color: var(--md-typeset-a-color); 
   text-decoration-thickness: 0.08em;
   text-underline-offset: 0.18em;
   transition: color 160ms ease, text-decoration-color 160ms ease;
 }
 
 .md-typeset a:hover {
-  text-decoration-color: #d99a2b;
+  text-decoration-color: #d99a2b; 
 }
 
 .md-typeset table:not([class]) {
