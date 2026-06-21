@@ -51,7 +51,7 @@ Desweitern kann man in dem Suchfeld nach Namen oder Labels suchen. Im unteren Be
 
 ## Aufgabe erstellen
 
-Durch den Knopf an der linken Seite mit einem Plus, kann eine neue Aufgabe erstellt werden. Eine genauere Beschreibung für das Anlegen einer Aufgabe findest du [hier.](tasks.md).
+Durch den Knopf an der linken Seite mit einem Plus, kann eine neue Aufgabe erstellt werden. Eine genauere Beschreibung für das Anlegen einer Aufgabe findest du [hier.](tasks.md)
 
 ## Aufgaben einplanen
 

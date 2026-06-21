@@ -42,7 +42,7 @@ nav:
       - tutorials/first-plan.md
   - Funktionen:
       - concepts/tasks.md
-      - concepts/calendar.md
+      - concepts/ui.md
       - concepts/settings.md
   - Installation:
       - installation/backend-setup.md
